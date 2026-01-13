@@ -3,7 +3,7 @@ on:
   push:
     branche:
       - main
-job:
+jobs:
   example-job:
     runs-on: ubuntu-latest
     steps:
