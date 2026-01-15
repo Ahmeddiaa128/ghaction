@@ -1,11 +1,11 @@
 on:
     push:
-        branche:
+        branches:
             - main
               "release/**"
         paths:
             - "src/**"
-    pull-request:
+    pull_request:
         branches:
             - main
               "release/**"
